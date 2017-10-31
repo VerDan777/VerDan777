@@ -1,0 +1,13 @@
+.button {
+    // box model
+    display: inline-block;
+    text-decoration: none;
+    color: $accent;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: $titleFont;
+    font-weight: bold;
+    padding: 20px 30px;
+    border: 2px solid $accent;
+
+}

@@ -1,0 +1,27 @@
+.works {
+    // box model
+    
+    &__header {
+        // box model
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #cccccc;
+    }
+    &__about {
+        // box model
+        margin-bottom: 100px;
+    }
+    
+    &__story {
+        // box model
+        margin-bottom: 100px;
+    }
+
+    &__mark {
+        // box model
+        background-color: $accent;
+        padding: 10px;
+        color: $white;
+        font-family: $titleFont;
+    }
+}

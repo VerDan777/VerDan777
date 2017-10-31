@@ -1,0 +1,72 @@
+.section {
+    // box model
+    // min-height: 100vh;
+    padding: 0 30px;
+    margin-bottom: 100px;
+
+    &--small {
+        min-height: 80vh; 
+    }
+
+    &--grey {
+        background-color: $sectionColor;
+    }
+
+
+    &__container {
+        text-align: center;
+        padding: 75px 0;
+    }
+
+    &__title {
+        // box model
+        margin: 0;
+        margin-bottom: 50px;
+        // typography
+        color: $titleColor;
+        font-family: $titleFont;
+        font-size: 1.875rem;
+        text-transform: uppercase;
+
+        &--positioning {
+            // box model
+            font-size: 1.375rem;
+        }
+    }
+
+    &__subscription {
+        // box model
+        margin-bottom: 30px;
+        
+        // typography
+        color: $textColor;  
+        font-family: $textFont;
+
+        span {
+            // box model
+
+            // typography
+           font-family: $ContactsFont;
+           font-weight: 300;
+        }
+    }
+
+    &__text {
+        // box model
+        text-align: left;
+        margin: 0;
+        margin-bottom: 35px;
+
+        // typography
+        color: $textColor;
+        line-height: 1.5;
+
+        &--reviews {
+
+            // typography
+            font-family: $textFont;
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+}

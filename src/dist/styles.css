@@ -1,0 +1,316 @@
+@import url(normalize.css);
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+
+.header {
+  height: 100vh;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./img/bg-s.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% bottom;
+  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header__container {
+  text-align: center;
+}
+
+.header__title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  color: #ffffff;
+  font-family: "Myriad Pro Regular", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  border: 4px solid #ffffff;
+  border-left: none;
+  border-right: none;
+}
+
+.header__button {
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px 40px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Myriad Pro Regular", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  border: 3px solid #ffffff;
+}
+
+.logo {
+  display: none;
+}
+
+.main-menu {
+  display: none;
+}
+
+.section {
+  padding: 0 30px;
+  margin-bottom: 100px;
+}
+
+.section--small {
+  min-height: 80vh;
+}
+
+.section--grey {
+  background-color: #f2f2f1;
+}
+
+.section__container {
+  text-align: center;
+  padding: 75px 0;
+}
+
+.section__title {
+  margin: 0;
+  margin-bottom: 50px;
+  color: #566366;
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 1.875rem;
+  text-transform: uppercase;
+}
+
+.section__title--positioning {
+  font-size: 1.375rem;
+}
+
+.section__subscription {
+  margin-bottom: 30px;
+  color: #919191;
+  font-family: "Roboto Regular", sans-serif;
+}
+
+.section__subscription span {
+  font-family: "Roboto Medium", sans-serif;
+  font-weight: 300;
+}
+
+.section__text {
+  text-align: left;
+  margin: 0;
+  margin-bottom: 35px;
+  color: #919191;
+  line-height: 1.5;
+}
+
+.section__text--reviews {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.hobbies__item {
+  margin-bottom: 70px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about__container {
+  padding: 20px 0;
+}
+
+.about__description {
+  margin-bottom: 100px;
+}
+
+.about__item {
+  text-align: center;
+}
+
+.about__img {
+  max-height: 500px;
+  margin-bottom: 50px;
+}
+
+.about__icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.about__image {
+  width: 100%;
+  height: 100%;
+}
+
+.about__title {
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 1.375rem;
+  text-transform: uppercase;
+}
+
+.about__item {
+  margin-bottom: 100px;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: #2ecc71;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: "Roboto Bold", sans-serif;
+  font-weight: bold;
+  padding: 20px 30px;
+  border: 2px solid #2ecc71;
+}
+
+.skills {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.skills__about {
+  margin-bottom: 100px;
+}
+
+.skills__list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.skills__item {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.skills__img {
+  display: inline-block;
+}
+
+.skills__title {
+  margin: 0;
+  padding-right: 50px;
+  display: inline-block;
+}
+
+.works__header {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.works__about {
+  margin-bottom: 100px;
+}
+
+.works__story {
+  margin-bottom: 100px;
+}
+
+.works__mark {
+  background-color: #2ecc71;
+  padding: 10px;
+  color: #ffffff;
+  font-family: "Roboto Bold", sans-serif;
+}
+
+.portfolio__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.contacts {
+  background-color: #252e30;
+}
+
+.contacts__title {
+  color: #ffffff;
+  font-size: 1.875rem;
+  font-family: "Myriad Pro Regular", sans-serif;
+  text-transform: uppercase;
+}
+
+.contacts__call-info {
+  text-align: left;
+}
+
+.contacts__email {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.contacts__email span {
+  color: #919191;
+}
+
+.contacts__phone {
+  display: block;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.contacts__phone span {
+  color: #919191;
+}
+
+.form__input-group {
+  display: block;
+  text-align: left;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.form__input {
+  width: 100%;
+  background-color: #4b5456;
+  padding: 10px;
+  border: none;
+}
+
+.form__textarea {
+  width: 100%;
+  background-color: #4b5456;
+  height: 200px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.form__submit {
+  background-color: #191f21;
+  padding: 20px 45px;
+  border: none;
+  color: #ffffff;
+  font-size: 1.375rem;
+  font-family: "Roboto Bold", sans-serif;
+  text-transform: uppercase;
+}

@@ -1,0 +1,12 @@
+.hobbies {
+    // box model
+    
+    &__item {
+        // box model
+        margin-bottom: 70px;
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+        // margin-bottom: 30px; 
+    }
+}

@@ -1,0 +1,21 @@
+.portfolio {
+    // box model
+        
+
+    &__container {
+        // box model
+        // text-align: center;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        // justify-content: center;
+    }
+
+    &__item {
+        // box model
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+}

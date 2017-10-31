@@ -1,0 +1,37 @@
+.skills {
+
+    // box model
+    text-align: center;
+    margin-bottom: 150px;
+
+    &__about {
+        // box model
+        margin-bottom: 100px;
+    }
+    
+    &__list {
+        // box model
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    &__item {
+        // box model
+        text-align: left;
+        margin-bottom: 50px;
+        
+    }
+
+    &__img {
+        display: inline-block;
+    }
+
+    &__title {
+        // box model
+        margin: 0;
+        padding-right: 50px;
+        display: inline-block;
+        
+    }
+}

@@ -1,0 +1,40 @@
+.contacts {
+    // box model
+    background-color: $footer;
+    &__title {
+        // box model
+        color: $white;
+        font-size: 1.875rem;
+        font-family: $WebDeveloperFont;
+        text-transform: uppercase;
+    }
+
+    &__call-info {
+        // display: inline-block;
+        text-align: left;
+    }
+    &__email {
+        display: block;
+        margin-bottom: 10px;
+        color: $white;
+        font-weight: 100;
+        // font-family: 
+        // font-size: 0.5rem;
+
+        span {
+            color: $textColor;
+        }
+    }
+    &__phone {
+        display: block;
+        margin-bottom: 20px;
+        color: $white;
+        font-weight: 100;        
+
+        span {
+            color: $textColor;
+        }
+        
+    }
+
+}
