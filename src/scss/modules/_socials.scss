@@ -1,0 +1,13 @@
+.socials {
+    // box model
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+        display: block;
+        // padding: 0 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

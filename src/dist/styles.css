@@ -314,3 +314,35 @@ body {
   font-family: "Roboto Bold", sans-serif;
   text-transform: uppercase;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 177px;
+  background-color: #191f21;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__copyright {
+  padding-bottom: 20px;
+  color: #4b5456;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials__item {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+}

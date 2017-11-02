@@ -1,0 +1,28 @@
+.footer {
+    // box model
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 177px;
+
+    // visual
+    background-color: $ButtonColor;
+
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    &__copyright {
+        // box model
+        padding-bottom: 20px;
+
+        // typography   
+        color: #4b5456;
+    }
+}
